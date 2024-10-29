@@ -26,8 +26,8 @@ export default function SignupScreen() {
   });
 
   const handleSignup = (data) => {
-    console.log(data); // You can send this data to your backend.
-    router.push("/explore"); // Navigate to explore screen after signup.
+    console.log(data);
+    router.push("/onboarding");
   };
 
   return (
